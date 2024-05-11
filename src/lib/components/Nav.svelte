@@ -17,7 +17,7 @@
 				viewBox="0 0 24 24"
 				fill="none"
 				stroke="#333333"
-				stroke-width="2"
+				stroke-width="1"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				class="lucide lucide-coffee {navIconStyle} {currentURL === '/'
@@ -36,7 +36,7 @@
 				viewBox="0 0 24 24"
 				fill="none"
 				stroke="#333333"
-				stroke-width="2"
+				stroke-width="1"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				class="lucide lucide-notebook-pen {navIconStyle} {currentURL === 'writings'
@@ -57,7 +57,7 @@
 				viewBox="0 0 24 24"
 				fill="none"
 				stroke="#333333"
-				stroke-width="2"
+				stroke-width="1"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				class="lucide lucide-layout-grid {navIconStyle} {currentURL === 'apps'
