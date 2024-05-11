@@ -4,23 +4,18 @@
 		'rounded-lg p-2 m-2 h-12 w-12 stroke-[#f0ebe3] hover:bg-[#dfd8c8] hover:stroke-[#333]';
 
 	const links = {
-		mail: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		github: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		youtube: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		steam: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+		mail: 'mailto:commitsovercoffee@gmail.com?subject=Collaboration Inquiry&body=Hello!',
+		github: 'https://github.com/commitsovercoffee',
+		youtube: 'https://youtube.com/@commitsovercoffee',
+		steam: 'https://steamcommunity.com/id/commitsovercoffee',
 		discord: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 		rss: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 		support: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 	};
 </script>
 
-<h1 class="font-plex text-[#b95a53]">Lorem ipsum dolor sit amet, qui minim labore adipisicing.</h1>
-<p>
-	Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-	nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-	Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-	est proident. Nostrud officia pariatur ut officia.
-</p>
+<h1 class="font-plex text-[#b95a53]">Yet another personal website.</h1>
+<p>Hi, I'm <strong>Sourav</strong>. Welcome to my corner of the internet.</p>
 
 <div class="flex">
 	<div class="m-1 rounded-xl flex-1">
@@ -31,25 +26,24 @@
 			class="m-0 rounded-xl object-cover h-full"
 		/>
 	</div>
-	<div class="m-1 rounded-xl px-4 py-2 flex-1 bg-[#333] text-[#f0ebe3]">
+	<div class="m-1 rounded-xl px-4 flex-1 bg-[#333] text-[#f0ebe3]">
 		<p>
-			Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
-			cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
-			consectetur cupidatat.
+			I am a self taught developer, currently building FOSS tools for educators & learners. I work
+			remotely from my hometown, Ranchi 🍃.
 		</p>
 		<p>
-			Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
-			cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
-			consectetur cupidatat.
+			When I'm not working, I like to read (books, blogs & beyond), rice my linux machine, play
+			video games or shoot hoops 🏀. When I'm not doing any of those things, I'm probably working on
+			a side project or yak shaving.
 		</p>
 		<p>
-			Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
-			cupidatat.
+			Thanks for getting to know me! Feel free to reach out for collaboration, coversation or code !
 		</p>
+		<p>I use arch btw. ✨</p>
 	</div>
 </div>
 <div class="m-1 p-2 rounded-xl flex bg-[#333] justify-evenly">
-	<a href={links.mail}>
+	<a href={links.mail} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -66,7 +60,7 @@
 			/></svg
 		>
 	</a>
-	<a href={links.github}>
+	<a href={links.github} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -83,7 +77,7 @@
 			/><path d="M9 18c-4.51 2-5-2-7-2" /></svg
 		>
 	</a>
-	<a href={links.youtube}>
+	<a href={links.youtube} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -101,7 +95,7 @@
 		>
 	</a>
 
-	<a href={links.steam}>
+	<a href={links.steam} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -124,7 +118,7 @@
 		>
 	</a>
 
-	<a href={links.discord}>
+	<a href={links.discord} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -142,7 +136,7 @@
 		>
 	</a>
 
-	<a href={links.rss}>
+	<a href={links.rss} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -162,7 +156,7 @@
 		>
 	</a>
 
-	<a href={links.support}>
+	<a href={links.support} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
