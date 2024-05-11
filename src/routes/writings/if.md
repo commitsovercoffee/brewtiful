@@ -1,3 +1,12 @@
+---
+title: If
+desc: Poem by Rudyard Kipling.
+date: '1895-01-01'
+tags:
+  - poem
+published: true
+---
+
 If you can keep your head when all about you  
  Are losing theirs and blaming it on you,  
 If you can trust yourself when all men doubt you,
