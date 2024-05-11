@@ -3,6 +3,7 @@
 	import { page } from '$app/stores';
 	$: currentURL = $page.url.pathname.split('/').pop() || $page.url.pathname;
 
+	const links = ['/', 'writings', 'apps'];
 	const navIconStyle = 'rounded-xl p-2 w-12 h-12 transition-all duration-200 ease-in';
 </script>
 
@@ -32,7 +33,7 @@
 				/><path d="M6 2v2" /></svg
 			>
 		</a>
-		<a href="writings" class="m-1">
+		<a href="/writings" class="m-1">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
@@ -53,7 +54,7 @@
 				/></svg
 			>
 		</a>
-		<a href="apps" class="m-1">
+		<a href="/apps" class="m-1">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
