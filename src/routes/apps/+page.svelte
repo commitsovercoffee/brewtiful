@@ -2,19 +2,19 @@
 	const apps = [
 		{
 			name: 'Lorem Ipsum',
-			desc: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+			desc: 'Lorem ipsum dolor sit amet, qui minim labore cupidatat.',
 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 			repo: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 		},
 		{
 			name: 'Lorem Ipsum',
-			desc: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+			desc: 'Lorem ipsum dolor sit amet, qui minim labore cupidatat.',
 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 			repo: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 		},
 		{
 			name: 'Lorem Ipsum',
-			desc: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
+			desc: 'Lorem ipsum dolor sit amet, qui minim labore cupidatat.',
 			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 			repo: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 		}
@@ -33,12 +33,17 @@
 </p>
 
 {#each apps as app}
-	<div class="my-4 rounded-xl p-4 bg-[#dfd8c8] flex">
+	<div class="my-4 rounded-xl p-4 bg-[#dfd8c8] flex justify-between content-start items-start">
+		<img
+			src="https://picsum.photos/80"
+			alt=""
+			class="rounded-lg m-0 p-0 min-h-20 min-w-20 bg-[#333]"
+		/>
 		<div>
 			<h3 class="m-0 mb-2 font-plex text-[#333]">{app.name}</h3>
 			<p class="m-0 leading-tight">{app.desc}</p>
 		</div>
-		<div class="flex flex-col">
+		<div class="flex flex-col ml-4">
 			<a href={app.link}>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
