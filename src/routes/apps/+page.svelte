@@ -1,22 +1,13 @@
 <script>
+	import minimaNvim from '$lib/assets/minima-nvim.png';
+
 	const apps = [
 		{
-			name: 'Lorem Ipsum',
-			desc: 'Lorem ipsum dolor sit amet, qui minim labore cupidatat.',
-			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-			repo: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-		},
-		{
-			name: 'Lorem Ipsum',
-			desc: 'Lorem ipsum dolor sit amet, qui minim labore cupidatat.',
-			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-			repo: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-		},
-		{
-			name: 'Lorem Ipsum',
-			desc: 'Lorem ipsum dolor sit amet, qui minim labore cupidatat.',
-			link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-			repo: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+			name: 'Minima-Nvim',
+			desc: 'Starter base configuration for neovim. .',
+			link: '',
+			repo: 'https://github.com/commitsovercoffee/minima-nvim',
+			logo: minimaNvim
 		}
 	];
 
@@ -24,44 +15,40 @@
 		'rounded-lg p-2 m-0 h-10 w-10 stroke-[#333] hover:bg-[#333] hover:stroke-[#dfd8c8]';
 </script>
 
-<h1 class="font-plex text-[#b95a53]">Lorem ipsum dolor sit amet, qui minim labore adipisicing.</h1>
-<p>
-	Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-	nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-	Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-	est proident. Nostrud officia pariatur ut officia.
-</p>
+<h1 class="font-plex text-[#b95a53]">"Just ship it!" they said. So I did.</h1>
+
+<p>Apps built with more coffee than sense. Use with caution (& maybe a snack). 🍫</p>
 
 {#each apps as app}
-	<div class="my-4 rounded-xl p-4 bg-[#dfd8c8] flex justify-between content-start items-start">
-		<img
-			src="https://picsum.photos/80"
-			alt=""
-			class="rounded-lg m-0 p-0 min-h-20 min-w-20 bg-[#333]"
-		/>
-		<div>
-			<h3 class="m-0 mb-2 font-plex text-[#333]">{app.name}</h3>
-			<p class="m-0 leading-tight">{app.desc}</p>
+	<div class="my-4 rounded-xl p-4 bg-[#dfd8c8] flex gap4 justify-between content-start items-start">
+		<div class="flex gap-4">
+			<img src={app.logo} alt="" class="rounded-lg m-0 p-0 min-h-20 h-20 min-w-20 bg-[#333]" />
+			<div>
+				<h3 class="m-0 mb-2 font-plex text-[#333]">{app.name}</h3>
+				<p class="m-0 leading-tight">{app.desc}</p>
+			</div>
 		</div>
 		<div class="flex flex-col ml-4">
-			<a href={app.link}>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="1"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					class="lucide lucide-link {iconStyle}"
-					><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /><path
-						d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
-					/></svg
-				>
-			</a>
-			<a href={app.repo}>
+			{#if app.link != ''}
+				<a href={app.link} target="_blank">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="lucide lucide-link {iconStyle}"
+						><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /><path
+							d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+						/></svg
+					>
+				</a>
+			{/if}
+			<a href={app.repo} target="_blank">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
