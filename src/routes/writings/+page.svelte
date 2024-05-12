@@ -22,6 +22,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Writings - Commits Over Coffee</title>
+</svelte:head>
+
 <h1 class="font-plex text-[#b95a53]">Lost Thoughts, Found Here.</h1>
 <p>
 	My attempt at making sense of the world, one blog post at a time. (Spoiler alert: it's mostly

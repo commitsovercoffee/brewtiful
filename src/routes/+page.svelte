@@ -14,6 +14,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Commits Over Coffee</title>
+</svelte:head>
+
 <h1 class="font-plex text-[#b95a53]">Yet another personal website.</h1>
 <p>Hi, I'm <strong>Sourav</strong>. Welcome to my corner of the internet.</p>
 

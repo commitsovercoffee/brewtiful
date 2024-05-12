@@ -15,6 +15,10 @@
 		'rounded-lg p-2 m-0 h-10 w-10 stroke-[#333] hover:bg-[#333] hover:stroke-[#dfd8c8]';
 </script>
 
+<svelte:head>
+	<title>Apps - Commits Over Coffee</title>
+</svelte:head>
+
 <h1 class="font-plex text-[#b95a53]">"Just ship it!" they said. So I did.</h1>
 
 <p>Apps built with more coffee than sense. Use with caution (& maybe a snack). 🍫</p>
