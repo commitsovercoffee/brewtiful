@@ -19,9 +19,10 @@
 	<title>Apps - Commits Over Coffee</title>
 </svelte:head>
 
-<h1 class="font-plex text-[#b95a53]">"Just ship it!" they said. So I did.</h1>
-
-<p>Apps built with more coffee than sense. Use with caution (& maybe a snack). 🍫</p>
+<div class="p-2">
+	<h1 class="font-plex text-[#b95a53]">"Just ship it!"<br /> they said, so I did.</h1>
+	<p>Apps built with more coffee than sense. Use with caution (& maybe a snack). 🍫</p>
+</div>
 
 {#each apps as app}
 	<div class="my-4 rounded-xl p-4 bg-[#dfd8c8] flex gap4 justify-between content-start items-start">

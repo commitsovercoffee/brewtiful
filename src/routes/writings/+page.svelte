@@ -26,11 +26,13 @@
 	<title>Writings - Commits Over Coffee</title>
 </svelte:head>
 
-<h1 class="font-plex text-[#b95a53]">Lost Thoughts, Found Here.</h1>
-<p>
-	My attempt at making sense of the world, one blog post at a time. (Spoiler alert: it's mostly
-	chaos.) Unfiltered opinions, questionable grammar, and a whole lot of ❤️.
-</p>
+<div class="p-2">
+	<h1 class="font-plex text-[#b95a53]">Lost Thoughts,<br /> Found Here.</h1>
+	<p>
+		My attempt at making sense of the world, one blog post at a time. (Spoiler alert: it's mostly
+		chaos.) Unfiltered opinions, questionable grammar & a whole lot of ❤️.
+	</p>
+</div>
 
 <div class="flex flex-wrap justify-start">
 	{#each [...new Set(data.posts.flatMap((p) => p.meta.tags))] as tag}

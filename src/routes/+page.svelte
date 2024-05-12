@@ -7,8 +7,10 @@
 	<title>Commits Over Coffee</title>
 </svelte:head>
 
-<h1 class="font-plex text-[#b95a53]">Yet another personal website.</h1>
-<p>Hi, I'm <strong>Sourav</strong>. Welcome to my corner of the internet.</p>
+<div class="p-2">
+	<h1 class="font-plex text-[#b95a53]">Yet another<br /> personal website.</h1>
+	<p>Hi, I'm <strong>Sourav</strong>.<br /> Welcome to my corner of the internet.</p>
+</div>
 
 <div class="flex flex-col sm:flex-row gap-2">
 	<div class="flex flex-col gap-2">
@@ -25,8 +27,7 @@
 			remotely from my hometown, Ranchi 🍃.<br /><br /> When I'm not working, I like to read (books,
 			blogs & beyond), rice my linux machine, play video games or shoot hoops 🏀. When I'm not doing
 			any of those things, I'm probably working on a side project or yak shaving.<br /><br /> Thanks
-			for getting to know me! Feel free to reach out for collaboration, coversation or code ! I use arch
-			btw. ✨
+			for getting to know me!<br /> Feel free to reach out. ✨
 		</p>
 	</div>
 </div>
