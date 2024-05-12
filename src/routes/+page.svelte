@@ -9,7 +9,7 @@
 		youtube: 'https://youtube.com/@commitsovercoffee',
 		steam: 'https://steamcommunity.com/id/commitsovercoffee',
 		discord: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-		rss: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+		rss: '/rss',
 		support: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 	};
 </script>
