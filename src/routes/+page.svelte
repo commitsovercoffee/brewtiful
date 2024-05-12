@@ -1,7 +1,7 @@
 <script>
 	import profile from '$lib/assets/profile.jpg';
 	const iconStyle =
-		'rounded-lg p-2 m-2 h-12 w-12 stroke-[#f0ebe3] hover:bg-[#dfd8c8] hover:stroke-[#333]';
+		'rounded-lg p-2 m-2 h-12 w-12 stroke-[#333333] hover:bg-[#333333] hover:stroke-[#dfd8c8]';
 
 	const links = {
 		mail: 'mailto:commitsovercoffee@gmail.com?subject=Collaboration Inquiry&body=Hello!',
@@ -42,7 +42,7 @@
 		<p>I use arch btw. ✨</p>
 	</div>
 </div>
-<div class="m-1 p-2 rounded-xl flex bg-[#333] justify-evenly">
+<div class="m-1 p-2 rounded-xl flex bg-[#dfd8c8] justify-evenly">
 	<a href={links.mail} target="_blank">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 			class="lucide lucide-mail {iconStyle}"
@@ -68,7 +68,7 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 			class="lucide lucide-github {iconStyle}"
@@ -85,7 +85,7 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 			class="lucide lucide-youtube {iconStyle}"
@@ -103,7 +103,7 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 			class="lucide lucide-gamepad-2 {iconStyle}"
@@ -126,7 +126,7 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 			class="lucide lucide-message-square-text {iconStyle}"
@@ -144,7 +144,7 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
 			class="lucide lucide-rss {iconStyle}"
@@ -164,10 +164,10 @@
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
-			stroke-width="2"
+			stroke-width="1"
 			stroke-linecap="round"
 			stroke-linejoin="round"
-			class="lucide lucide-heart {iconStyle} hover:stroke-[#b95a53] hover:fill-[#b95a53]"
+			class="lucide lucide-heart rounded-lg p-2 m-2 h-12 w-12 stroke-[#333333] hover:bg-[#333333] hover:stroke-[#b95a53] hover:fill-[#b95a53]"
 			><path
 				d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
 			/></svg

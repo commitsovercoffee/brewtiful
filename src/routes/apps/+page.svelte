@@ -4,7 +4,7 @@
 	const apps = [
 		{
 			name: 'Minima-Nvim',
-			desc: 'Starter base configuration for neovim. .',
+			desc: 'Starter base configuration for neovim.',
 			link: '',
 			repo: 'https://github.com/commitsovercoffee/minima-nvim',
 			logo: minimaNvim

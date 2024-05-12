@@ -10,10 +10,10 @@
 <nav class="mb-16 flex justify-between items-center">
 	<a
 		href="/"
-		class="no-underline hover:underline underline-offset-8 font-plex text-2xl font-bold text-[#333]"
+		class="no-underline hover:underline underline-offset-8 font-Inter text-2xl font-light text-[#333]"
 		>CommitsOverCoffee</a
 	>
-	<div class="rounded-2xl p-2 bg-[#dfd8c8] flex">
+	<div class="rounded-2xl p-2 bg-[#dfd8c8] flex gap-2">
 		<a href="/" class="m-1">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
