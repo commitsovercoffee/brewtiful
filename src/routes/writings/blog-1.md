@@ -1,19 +1,48 @@
 ---
-title: Lorem Ipsum 1
-desc: Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-date: '2024-04-01'
+title: Use RSS to stalk people
+desc: Ditch the doomscroll, embrace the feed.
+date: '2021-05-11'
 tags:
-  - tag-1
-  - tag-3
+  - spotlight
+  - content
 published: true
 ---
 
-### Blog
+You got click-baited if you think I'll teach you to stalk. This blog covers how I use RSS to stalk (or keep up) with personal blogs.
 
-Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+## What is an RSS Feed ?
 
-# heading-1
+I am not active on social media. But ofcourse I'd like to follow certain folks. Thankfully most of those people tend to have a personal website or a blog.
 
-## heading-2
+A personal website or a blog (just like this one) often tends to have a RSS feed. Which means, you don't need to visit my website everytime to read my blogs.
 
-### heading-3
+If you visit the link, [commitsovercoffee.com/rss](https://commitsovercoffee.com/rss). A file will automatically download with a list of all my blogs. This is called an RSS feed. Some may call it a relic from the past, but it is a reliable and efficient way to have feeds.
+
+📰 RSS feeds are widely used by individuals and companies alike :
+
+- [bencodezen](https://www.bencodezen.io/rss.xml) (personal website)
+- [techcrunch](https://techcrunch.com/feed/)
+- [gizmodo](https://gizmodo.com/rss)
+
+## How to use an RSS reader.
+
+Now that you know that something like RSS feeds exist. The next step is to get a RSS reader app which will make life easier for you :
+
+1. Install an RSS reader app such as [feeder](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play&pcampaignid=web_share) (I use this).
+2. Add feeds (_websitename.com/rss_) to the app.
+3. Read the blogs at your leisure.
+
+The app itself will periodically check if new blogs were added to any of your feeds. So you don't need to refresh & check if there is something new. You can carry on with your life and the app will ping you when there is something new.
+
+I use RSS to follow along with personal blogs and my experience has been superb. Your experience however, can easily be ruined if you add feeds from (say) a media outlet, who will bombard you with 100 feeds everyday. Although you can set how many feeds you want to see per day, it ruins the experience.
+
+## Why isn't everyone using RSS ?
+
+RSS works great (mostly), if you know what you want.
+
+- For someone new to this, they will have to curate their own feed & that can feel daunting. Especially in this social media era where we are just so habitual of content been fed to us by algorithms vs taking sometime to curate our content.
+- Even if you decide to take the time to curate your feed, not everyone has RSS on their blog or website. Nothing we can do about that. May be mail them to add one ? 😅
+
+## Thanks
+
+RSS is just a tool for content curation, a means to organize the information that matters to you. However, I believe that the true essence lies in the intention behind our actions. Engaging in meaningful dialogues regarding content consumption is paramount. This blog was simply my attempt to contribute to such discussions.
