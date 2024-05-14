@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="p-2">
-	<h1 class="font-light text-[#b95a53]">Yet another<br /> personal website.</h1>
+	<h1 class="font-semibold text-[#b95a53]">Yet another<br /> personal website.</h1>
 	<p>Hi, I'm <strong>Sourav</strong>.<br /> Welcome to my corner of the internet.</p>
 </div>
 

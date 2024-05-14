@@ -20,7 +20,7 @@
 </svelte:head>
 
 <div class="p-2">
-	<h1 class="font-light text-[#b95a53]">"Just ship it!"<br /> they said, so I did.</h1>
+	<h1 class="font-semibold text-[#b95a53]">"Just ship it!"<br /> they said, so I did.</h1>
 	<p>Apps built with more coffee than sense. Use with caution (& maybe a snack). 🍫</p>
 </div>
 

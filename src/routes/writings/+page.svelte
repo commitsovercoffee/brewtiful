@@ -27,7 +27,7 @@
 </svelte:head>
 
 <div class="p-2">
-	<h1 class="font-light text-[#b95a53]">Lost Thoughts,<br /> Found Here.</h1>
+	<h1 class="font-semibold text-[#b95a53]">Lost Thoughts,<br /> Found Here.</h1>
 	<p>
 		My attempt at making sense of the world, one blog post at a time. (Spoiler alert: it's mostly
 		chaos.) Unfiltered opinions, questionable grammar & a whole lot of ❤️.
@@ -50,7 +50,7 @@
 
 {#each filteredPosts as post}
 	<a href={post.path} class="underline-offset-8 hover:no-underline">
-		<h2 class="text-[#333] font-light">{post.meta.title}</h2>
+		<h2 class="text-[#333] font-medium">{post.meta.title}</h2>
 	</a>
 	<p class="ml-8 border-l-4 border-[#dfd8c8] pl-4">{post.meta.desc}</p>
 {/each}
