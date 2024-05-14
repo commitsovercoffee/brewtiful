@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
 
-	import '@fontsource/ibm-plex-serif'; // Supports weights 100-700
 	import '@fontsource-variable/inter'; // Supports weights 100-900
 
 	import Nav from '$lib/components/Nav.svelte';

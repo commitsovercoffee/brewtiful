@@ -4,8 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				inter: "'Inter Variable', sans-serif ",
-				plex: "'IBM Plex Serif', serif "
+				inter: "'Inter Variable', sans-serif "
 			}
 		}
 	},

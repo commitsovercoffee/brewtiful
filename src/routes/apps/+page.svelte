@@ -20,7 +20,7 @@
 </svelte:head>
 
 <div class="p-2">
-	<h1 class="font-plex text-[#b95a53]">"Just ship it!"<br /> they said, so I did.</h1>
+	<h1 class="font-light text-[#b95a53]">"Just ship it!"<br /> they said, so I did.</h1>
 	<p>Apps built with more coffee than sense. Use with caution (& maybe a snack). 🍫</p>
 </div>
 
@@ -29,7 +29,7 @@
 		<div class="flex gap-4">
 			<img src={app.logo} alt="" class="rounded-lg m-0 p-0 min-h-20 h-20 min-w-20 bg-[#333]" />
 			<div>
-				<h3 class="m-0 mb-2 font-plex text-[#333]">{app.name}</h3>
+				<h3 class="m-0 mb-2 font-normal text-[#333]">{app.name}</h3>
 				<p class="m-0 leading-tight">{app.desc}</p>
 			</div>
 		</div>
