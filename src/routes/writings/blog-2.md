@@ -1,13 +1,21 @@
 ---
-title: Lorem Ipsum 2
-desc: Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-date: '2024-04-01'
+title: List 100
+desc: Mild inconveniences I'd like to experience before I become worm food.
+date: '2021-08-05'
 tags:
-  - tag-2
-  - tag-4
+  - personal
 published: true
 ---
 
-### Blog
+Things I want to do before I die. Open to suggestions ...
 
-Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+1. ✗ Design & publish an indie game.
+2. ✗ Do stand-up.
+3. ✗ Build a home. (maybe small, but mine)
+4. ✗ Swim a mile.
+5. ✗ Fly an airplane.
+6. ✗ Ask a stranger out.
+7. ✗ Sleep outside on a beach.
+8. ✗ Learn to play drums.
+9. ✗ Start a youtube channel.
+10. ~ Be kind.

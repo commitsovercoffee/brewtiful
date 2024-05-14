@@ -32,6 +32,11 @@
 		My attempt at making sense of the world, one blog post at a time. (Spoiler alert: it's mostly
 		chaos.) Unfiltered opinions, questionable grammar & a whole lot of ❤️.
 	</p>
+	<p>
+		To subscribe via RSS, you can use <strong class="text-[#b95a53]"
+			>https://commitsovercoffee.com/rss</strong
+		>.
+	</p>
 </div>
 
 <div class="flex flex-wrap justify-start">
@@ -44,8 +49,8 @@
 </div>
 
 {#each filteredPosts as post}
-	<a href={post.path} class="underline-offset-8 hover:no-underline decoration-2">
-		<h2 class="text-[#333]">{post.meta.title}</h2>
+	<a href={post.path} class="underline-offset-8 hover:no-underline">
+		<h2 class="text-[#333] font-light">{post.meta.title}</h2>
 	</a>
 	<p class="ml-8 border-l-4 border-[#dfd8c8] pl-4">{post.meta.desc}</p>
 {/each}

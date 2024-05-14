@@ -11,6 +11,8 @@
 </svelte:head>
 
 <article>
-	<h1>{data.title}</h1>
-	<svelte:component this={data.content} />
+	<div class="py-16">
+		<h1>{data.title}</h1>
+		<svelte:component this={data.content} />
+	</div>
 </article>
