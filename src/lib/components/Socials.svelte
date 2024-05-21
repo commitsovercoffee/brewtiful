@@ -6,7 +6,7 @@
 		mail: 'mailto:commitsovercoffee@gmail.com?subject=Collaboration Inquiry&body=Hello!',
 		github: 'https://github.com/commitsovercoffee',
 		youtube: 'https://youtube.com/@commitsovercoffee',
-		rss: '/rss'
+		rss: '/rss.xml'
 	};
 </script>
 
