@@ -11,7 +11,7 @@ export async function GET() {
 		link: 'https://brewtiful.onrender.com',
 		language: 'en', // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
 		copyright: `Copyright ${new Date().getFullYear().toString()}, CommitsOverCoffee`,
-		generator: '🌻', // optional, default = 'Feed for Node.js'
+		generator: ' 👓', // optional, default = 'Feed for Node.js'
 		feedLinks: {
 			rss: 'https://brewtiful.onrender.com/rss.xml'
 		},
@@ -28,7 +28,7 @@ export async function GET() {
 		feed.addItem({
 			title: article.meta.title,
 			description: article.meta.desc,
-			content: `<p>${article.meta.desc}</p>`,
+			content: `<p>${article.meta.desc}</p> <div style="margin-top: 50px; font-style: italic;"> <strong><a href="https://brewtiful.onrender.com${article.path}">Keep reading</a>.</strong> </div> <br /> <br />`,
 			link: `https://brewtiful.onrender.com${article.path}`,
 			author: [
 				{
@@ -36,7 +36,8 @@ export async function GET() {
 					email: 'commitsovercoffee@gmail.com',
 					link: 'https://brewtiful.onrender.com'
 				}
-			]
+			],
+			date: new Date(article.meta.date)
 		});
 	}
 
