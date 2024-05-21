@@ -17,7 +17,7 @@ export async function GET() {
 			rss: 'https://brewtiful.onrender.com/rss.xml'
 		},
 		author: {
-			name: 'CommitsOverCoffee',
+			name: 'Sourav Singh',
 			email: 'commitsovercoffee@gmail.com',
 			link: 'https://brewtiful.onrender.com'
 		},
@@ -27,18 +27,18 @@ export async function GET() {
 
 	for (const article of articles) {
 		feed.addItem({
-			title: article.title,
-			description: article.description,
-			content: `<p>${article.description}</p> <div style="margin-top: 50px; font-style: italic;"> <strong><a href="https://gebna.gg${article.path}">Keep reading</a>.</strong> </div> <br /> <br />`,
+			title: article.meta.title,
+			description: article.meta.desc,
+			content: `<p>${article.meta.desc}</p> <div style="margin-top: 50px; font-style: italic;"> <strong><a href="https://gebna.gg${article.path}">Keep reading</a>.</strong> </div> <br /> <br />`,
 			link: `https://brewtiful.onrender.com${article.path}`,
 			author: [
 				{
-					name: 'CommitsOverCoffee / Sourav',
+					name: 'Sourav Singh',
 					email: 'commitsovercoffee@gmail.com',
 					link: 'https://brewtiful.onrender.com'
 				}
 			],
-			date: new Date(article.publishDate)
+			date: new Date(article.meta.date)
 		});
 	}
 
